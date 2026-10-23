@@ -11,6 +11,8 @@ shuhari init <catalog-url>
 
 Prebuilt binaries cover macOS (Apple silicon and Intel) and Linux (x86_64). No Rust toolchain or credentials are needed.
 
+Homebrew reports third-party taps as untrusted. The install still works; to mark this tap trusted, run `brew trust --tap attilagyorffy/shuhari`.
+
 ## Update
 
 ```sh
