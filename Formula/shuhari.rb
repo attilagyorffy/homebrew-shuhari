@@ -3,23 +3,23 @@
 class Shuhari < Formula
   desc "Manage agent skills across machines from a git-synced catalog"
   homepage "https://shuhari.gyorffy.dev"
-  version "0.13.0"
+  version "0.14.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/attilagyorffy/homebrew-shuhari/releases/download/v0.13.0/shuhari-0.13.0-aarch64-apple-darwin.tar.gz"
-      sha256 "3afaea5de349a3b0ed8a9d0a672b8f9ea92cc0a04ba66e10d7a88fbe0e7b60d1"
+      url "https://github.com/attilagyorffy/homebrew-shuhari/releases/download/v0.14.1/shuhari-0.14.1-aarch64-apple-darwin.tar.gz"
+      sha256 "2ab6f9aad286ab568ebc85853dfc016381a1f7391b5e549850cecfca840d56e1"
     end
     on_intel do
-      url "https://github.com/attilagyorffy/homebrew-shuhari/releases/download/v0.13.0/shuhari-0.13.0-x86_64-apple-darwin.tar.gz"
-      sha256 "a770379bebb47c8f5110af9e87024ae51a595edd6fd7aa5a5056f8a42f96f6f2"
+      url "https://github.com/attilagyorffy/homebrew-shuhari/releases/download/v0.14.1/shuhari-0.14.1-x86_64-apple-darwin.tar.gz"
+      sha256 "99dd3c13dc2802a22a41b2a847fc210a7c7db00b09b5c90f1bee8a8402821c4b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/attilagyorffy/homebrew-shuhari/releases/download/v0.13.0/shuhari-0.13.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "986148e72a2939455ae6d645c3d6a8bde67baa29aa91acf58c1687578c99a27a"
+      url "https://github.com/attilagyorffy/homebrew-shuhari/releases/download/v0.14.1/shuhari-0.14.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "a93479832979fa71b3a3a4c5d2ea5ce4a4ec0777db3eedfa4b28a90735170238"
     end
   end
 
